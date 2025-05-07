@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 =======
@@ -38,3 +39,7 @@ React Router for routing
 Context API (or Redux if used) for state management
 
 >>>>>>> f1d6ecc350969674484ca30a89e5ceaf3e57fdb1
+=======
+# ShopSmart__Frontend
+EMC Academy final project frontend repo
+>>>>>>> 79a024fd3b869cba7b7505ac529c949d7d431072
