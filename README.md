@@ -1,45 +1,55 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
+# ShopSmart
 
-=======
-# Airbnb_frontend
+*ShopSmart* is a full-stack e-commerce application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Firebase Authentication. It provides a responsive and intuitive shopping experience for users, including secure login, browsing products, adding to cart, and completing purchases.
 
-This repository contains the frontend codebase for the Airbnb Clone project.
-It is built using React.js with Vite for fast development and optimized performance.
+---
 
-The frontend allows users to browse property listings, register/login, and make bookings through a clean and responsive UI designed with Tailwind CSS.
+## Features
 
-Key Features:
+### User Authentication
+- Sign up, log in, and log out using *Firebase Authentication*
+- Only authenticated users can place orders and view order history
 
-React.js single-page application (SPA)
+### Product Management
+- Admin CRUD operations: Create, Read, Update, Delete products
+- Products include name, description, price, images, stock, and category
+- Category-based navigation (e.g., electronics, clothing, accessories)
 
-Vite-powered fast bundling and hot reloading
+### Shopping Cart
+- Add/remove products to/from the cart
+- View product details, adjust quantities, and total prices
 
-User authentication (sign up, log in)
+### Checkout
+- Multi-step checkout: Address, Payment, and Confirmation
+- Select delivery address and payment method
+- Final order summary before confirmation
 
-Listing creation and booking functionality
+### Order Management
+- Orders stored with order ID, items, quantities, total price, and status
+- Users can view order history and order details
 
-Mobile-first responsive design with Tailwind CSS
+---
 
-API integration with backend services
+## Tech Stack
 
-Modular and reusable component-based architecture
+- *Frontend:* React.js + Tailwind CSS
+- *Backend:* Node.js, Express.js
+- *Database:* MongoDB
+- *Authentication:* Firebase Authentication
+- *Hosting/Deployment:* (Add your choice here – e.g., Vercel, Netlify, Render, etc.)
 
-Tech Stack:
+---
 
-React.js (with Vite)
+## Getting Started
 
-Tailwind CSS
+### Prerequisites
+- Node.js v18+
+- MongoDB instance (local or Atlas)
+- Firebase Project (for auth)
 
-Axios for API communication
+### Installation
 
-React Router for routing
-
-Context API (or Redux if used) for state management
-
->>>>>>> f1d6ecc350969674484ca30a89e5ceaf3e57fdb1
-=======
-# ShopSmart__Frontend
-EMC Academy final project frontend repo
->>>>>>> 79a024fd3b869cba7b7505ac529c949d7d431072
+1. *Clone the repository:*
+   ```bash
+   git clone https://github.com/your-username/shopsmart.git
+   cd shopsmart
